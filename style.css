@@ -82,6 +82,9 @@ body::before{
 .card-bottom-Left{
     gap: .7rem;
 }
+.card-bottom-Right{
+    gap: .7rem;
+}
 
 .card-number{
     font-family: 'Exo', sans-serif;
