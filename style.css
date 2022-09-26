@@ -74,15 +74,16 @@ body::before{
     z-index: 1;
 }
 
-.card-center img{
-    width: 80px;
+.card-top img{
+    width: 100px;
     padding-left: 2rem;
 }
 
-.card-bottom-Left{
-    gap: .7rem;
+.card-bottom-Left, .card-bottom-right{
+    display: flex;
+    flex-direction: column;
 }
-.card-bottom-Right{
+.card-bottom-Left{
     gap: .7rem;
 }
 
